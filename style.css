@@ -1,0 +1,304 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body li {
+	list-style-type: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+	color: white;
+	font-family: Helvetica;
+	font-weight: 100;
+	margin: 0;
+}
+
+.container-general {
+	display: flex;
+	flex-direction: column;
+}
+
+/* NAVBAR */
+
+.navbar {
+	position: fixed;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+	width: 100vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	background-color: #333333;
+	margin: 0;
+}
+
+.logo-navbar {
+	margin-left: 2vw;
+}
+
+.navbar-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 5vw;
+}
+
+.liens-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	margin-right: 5vw;
+}
+
+.liens-menu li:nth-child(1) {
+	margin-right: 5vw;
+}
+
+.liens-langue {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.liens-langue li:nth-child(1) {
+	margin-right: 2vw;
+}
+
+.liens-langue>.bouton {
+	margin-right: 3vw;
+}
+
+/* LANDING PAGE */
+
+.landing-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 88vh;
+	width: 100vw;
+	background-color: #000000;
+}
+
+.contenu-landing-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+
+.contenu-landing-page h1, .contenu-landing-page h2 {
+	margin-top: 2vh;
+}
+
+.bouton-cta {
+	border: 1px solid #fff;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	margin-top: 4vh;
+}
+
+.lien-formulaire-cm {
+	margin-top: 10vh;
+}
+
+/* DESCRIPTION DE L'OFFRE */
+
+.description-offre {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.slider-slides {
+	height: 90%;
+	width: 80%;
+	flex-direction: column;
+	margin-top: 12.5%;
+}
+
+.slide-image {
+	height: 45%;
+	border: solid 1px #000;
+	background-color: #000;
+}
+
+.slide-description {
+	height: 45%;
+	border: solid 1px #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slide-description h2 {
+	color: #000;
+	text-align: center
+}
+
+.slide-description p {
+	color: #000;
+	text-align: justify;	
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+.fleche img {
+	width: 50%;
+	margin-left: 20%;
+}
+
+.liste ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0% 10% 0% 10%;
+}
+
+.liste li {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: #000;
+}
+
+/* CLIENTS */
+
+.clients {
+	height: 100vh;
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+.clients h2 {
+	margin-bottom: 10%;
+}
+
+.clients-images {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-right: 10vw;
+	padding-left: 10vw;
+	width: 80%;
+	flex-wrap: wrap;
+}
+
+.clients-images img {
+	height: 75px;
+	width: 75px;
+	border-radius: 100%;
+	padding: 2%;
+}
+
+/* VALEURS */
+
+.valeurs {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.valeurs h2 {
+	color: #000;
+	text-align: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+}
+
+.valeurs p {
+	color: #000;
+	text-align: justify;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+
+.valeurs img {
+	height: 325px;
+	width: 325px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* EQUIPE */
+
+.equipe {
+	height: 100vh;
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.equipe h2 {
+	margin-right: auto;
+	margin-left: auto;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.equipe .membres {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fiche-membre {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.fiche-membre img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+	height: 10vh;
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	line-height: 5;
+}
+
+.reseaux img {
+	height: 25px;
+	width: 25px;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+
+/* RESPONSIVE : TABLETTE VERTICAL */
+
+@media (min-width: 600px) {
+
+	.navbar-menu {
+	margin-right: 10vw;
+}
